@@ -1,0 +1,35 @@
+:root {
+    // Accent
+    --clr-primary-500: hsl(277, 64%, 61%);
+    // Card Background
+    --clr-primary-800: #1b1937;
+    // Main Background
+    --clr-primary-900: #0A0C1C;
+
+
+    // Main heading, stats
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    // Main Paragraph
+    --clr-neutral-200: hsla(0, 0%, 100%, 0.75);
+    // Stat Headings
+    --clr-neutral-300: hsla(0, 0%, 100%, 0.6);
+
+
+    --fz-400: 0.75rem; // 12px
+    --fz-500: 0.9375rem; // 15px
+    --fz-700: 1.5rem; // 24px
+    --fz-800: 1.75rem; // 28px
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+    --ff-Inter: 'Inter', sans-serif;
+    --ff-Lexend-Deca: 'Lexend Deca', sans-serif;
+
+    --fw-400: 400;
+    --fw-700: 700;
+
+
+    @media (min-width: 48em) {
+        --fz-800: 2.25rem; // 36px
+
+    }
+}
