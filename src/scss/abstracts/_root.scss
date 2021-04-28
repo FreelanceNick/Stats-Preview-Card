@@ -1,4 +1,8 @@
 :root {
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+    --ff-Inter: 'Inter', sans-serif;
+    --ff-Lexend-Deca: 'Lexend Deca', sans-serif;
+
     // Accent
     --clr-primary-500: hsl(277, 64%, 61%);
     // Card Background
@@ -20,9 +24,6 @@
     --fz-700: 1.5rem; // 24px
     --fz-800: 1.75rem; // 28px
 
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
-    --ff-Inter: 'Inter', sans-serif;
-    --ff-Lexend-Deca: 'Lexend Deca', sans-serif;
 
     --fw-400: 400;
     --fw-700: 700;
