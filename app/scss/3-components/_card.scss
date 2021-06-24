@@ -25,7 +25,7 @@
 
     /* <img> element */
     img {
-        height: 100%;
+        width: 100%;
         mix-blend-mode: multiply;
     }
 
@@ -56,7 +56,7 @@
 
 
     // Tablet-and-Up Styles
-    @media (min-width: 62.5em) {
+    @media (min-width: 69.375em) {
 
     
 
@@ -69,7 +69,7 @@
 
         &__text-area {
             max-width: 31rem;
-            padding: 4.5rem 0rem 3.875rem 4.5rem;
+            padding: 4.5rem 2rem 3.875rem 4.5rem;
 
             /* Main Heading - Layout */
             h1 {

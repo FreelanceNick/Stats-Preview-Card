@@ -169,7 +169,7 @@ body {
   background: var(--softViolet);
 }
 .card img {
-  height: 100%;
+  width: 100%;
   mix-blend-mode: multiply;
 }
 .card__text-area {
@@ -187,7 +187,7 @@ body {
 .card__stats span {
   display: block;
 }
-@media (min-width: 62.5em) {
+@media (min-width: 69.375em) {
   .card {
     /* Text Area - Content */
     /* Image - 'Order' Change */
@@ -200,7 +200,7 @@ body {
   }
   .card__text-area {
     max-width: 31rem;
-    padding: 4.5rem 0rem 3.875rem 4.5rem;
+    padding: 4.5rem 2rem 3.875rem 4.5rem;
     /* Main Heading - Layout */
     /* Main Paragraph - Layout */
   }
