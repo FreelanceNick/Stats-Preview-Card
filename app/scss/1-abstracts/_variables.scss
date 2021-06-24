@@ -1,0 +1,30 @@
+:root {
+    // Fonts
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+    --ff-Inter: 'Inter', sans-serif;
+    --ff-Lexend-Deca: 'Lexend Deca', sans-serif;
+
+    // Font Weights
+    --fw-400: 400; // Inter, Lexend Deca
+    --fw-700: 700; // Inter
+
+
+    // COLORS
+    --veryDarkBlue: hsl(233, 47%, 7%);  // main background
+    --darkDesaturatedBlue: hsl(244, 38%, 16%);  // card background
+    --softViolet: hsl(277, 64%, 61%);   // accent
+
+    --transparentWhite-300: hsla(0, 0%, 100%, 0.6);  // main heading, stats
+    --transparentWhite-200: hsla(0, 0%, 100%, 0.75);  // main paragraph
+    --white: hsl(0, 0%, 100%);  // stat headings
+
+
+
+    // FONT SIZES
+    --fs-xsm: 0.75rem;  // 12px
+    --fs-sm: 0.9375rem; // 15px
+    --fs-normal: 1rem;  // 16px
+    --fs-md: 1.5rem;    // 24px
+    --fs-lg: 1.75rem;   // 28px
+    --fs-xlg: 2.25rem;  // 36px
+}

@@ -1,0 +1,107 @@
+.card {
+    // Temp Styles
+
+
+    // Primary Card Styles
+    border-radius: .5rem;
+    overflow: hidden;
+    background: var(--darkDesaturatedBlue);
+
+    // Mobile First - Start
+    /* Layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    /* Card Width */
+    width: 100%;
+    max-width: 20.4375rem;
+
+
+    /* Wrapper for <img> element */
+    picture {
+        background: var(--softViolet);
+    }
+
+    /* <img> element */
+    img {
+        height: 100%;
+        mix-blend-mode: multiply;
+    }
+
+    /* Text Area */
+    &__text-area {
+        padding: 2.5rem 2rem 2rem;
+
+        h1 {
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin-bottom: 2.5rem;
+        }
+    }
+
+    // card__stats Layout
+    &__stats {
+
+        li:not(:last-child) {
+            padding-bottom: 1.5rem;
+        }
+
+        span {
+            display: block;
+        }
+    }
+
+
+    // Tablet-and-Up Styles
+    @media (min-width: 62.5em) {
+
+    
+
+        /* Text Area - Content */
+        &__text-area,
+        &__stats {
+            max-width: 23.875rem;
+            text-align: left;
+        }
+
+        &__text-area {
+            max-width: 31rem;
+            padding: 4.5rem 0rem 3.875rem 4.5rem;
+
+            /* Main Heading - Layout */
+            h1 {
+                margin-bottom: 1.5625rem;
+            }
+
+            /* Main Paragraph - Layout */
+            p {
+                margin-bottom: 72px;
+            }
+        }
+
+        &__stats {
+            display: flex;
+
+            li:not(:last-child) {
+                margin-bottom: 0;
+                padding: 0;
+                margin-right: 4rem;
+
+            }
+        }
+
+        /* Image - 'Order' Change */
+        picture,
+        img {
+            order: 2;
+        }
+
+        // Text Area
+
+        max-width: 69.375rem;
+        flex-direction: row;
+    }
+}
